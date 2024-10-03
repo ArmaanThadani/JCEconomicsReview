@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economics Articles</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b4d28;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #661207;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 50px; /* Adjust the height of the logo image */
+            margin-right: 15px; /* Space between the logo and the text */
+        }
+
+        .logo h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #e0e0e0;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #1e90ff;
+        }
+
+        /* Search bar */
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .search-bar input {
+            width: 60%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        /* Main content */
+        main {
+            padding: 20px;
+        }
+
+        .articles-list {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #0b4d28;
+            border-radius: 10px;
+        }
+
+        .articles-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .articles-list li {
+            margin: 15px 0;
+        }
+
+        .articles-list a {
+            font-size: 20px;
+            color: #e0e0e0;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .articles-list a:hover {
+            background-color: #1e90ff;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #1e1e1e;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            color: #e0e0e0;
+        }
+
+        @media (max-width: 768px) {
+            .search-bar input {
+                width: 80%;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .articles-list a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Jumeirah College logo.png" alt="Jumeirah College Logo">
+            <h1>Jumeirah Economics Review</h1>
+        </div>
+    </header>
+    <main>
+        <!-- Articles list -->
+        <div class="articles-list">
+            <ul>
+                <li><a href="Armaan Thadani JC Economic Review.pdf" target="_blank">The U.S. Tech Industry: Macroeconomic Challenges and Opportunities in 2024 | Written by - Armaan Thadani</a></li>
+                <li><a href="articles/article2.pdf" target="_blank">Inflation and Its Impact on Consumer Spending</a></li>
+                <li><a href="articles/article3.pdf" target="_blank">The Economics of Climate Change</a></li>
+                <li><a href="articles/article4.pdf" target="_blank">Understanding Market Failures</a></li>
+                <li><a href="articles/article5.pdf" target="_blank">Monetary Policy in the Modern Economy</a></li>
+                <!-- Add more articles as needed -->
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
